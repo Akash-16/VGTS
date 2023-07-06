@@ -1,0 +1,16 @@
+.vgts_mainLayout {
+  box-sizing: border-box;
+  max-width: 90%;
+  margin: auto;
+  padding: 2rem;
+  height: 100%;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .vgts_mainLayout {
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
